@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MREN7QTJ7G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-MREN7QTJ7G');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+
+    <title>Arquitecto Madrid | Wolfblanc Architects</title>
+    <meta name="description" content="Estudio de arquitectura en Madrid. Reformas integrales, viviendas unifamiliares y proyectos de inversión con metodología BIM. COAM colegiado N.25160 · WELL AP. Consulta gratuita.">
+    <meta name="keywords" content="arquitecto Madrid, estudio arquitectura Madrid, arquitecto colegiado Madrid, arquitecto España, diseño interior Madrid, reforma integral Madrid, arquitecto residencial Madrid, arquitecto comercial Madrid, interiorismo Madrid, WELL AP arquitecto Madrid">
+
+    <link rel="canonical" href="https://wolfblanc.es">
+    <link rel="alternate" hreflang="es" href="https://wolfblanc.es">
+    <link rel="alternate" hreflang="x-default" href="https://wolfblanc.es">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:title" content="Arquitecto Madrid | Wolfblanc Architects">
+    <meta property="og:description" content="Estudio de arquitectura en Madrid. COAM colegiado N.25160 · WELL AP · Metodología BIM. Consulta gratuita.">
+    <meta property="og:url" content="https://wolfblanc.es">
+    <meta property="og:site_name" content="Wolfblanc Architects">
+    <meta property="og:image" content="https://wolfblanc.com/wp-content/uploads/2026/01/WOLFBLANC-ARCHITECTS-LOGO_lwsoptimized.webp">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Arquitecto Madrid | Wolfblanc Architects">
+    <meta name="twitter:description" content="Estudio de arquitectura en Madrid. COAM colegiado · WELL AP.">
+    <meta name="twitter:image" content="https://wolfblanc.com/wp-content/uploads/2026/01/WOLFBLANC-ARCHITECTS-LOGO_lwsoptimized.webp">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["LocalBusiness", "Architect"],
+      "name": "Wolfblanc Architects",
+      "url": "https://wolfblanc.es",
+      "sameAs": [
+        "https://wolfblanc.com",
+        "https://wolfblanc.se",
+        "https://wolfblanc.gr",
+        "https://instagram.com/wolfblanc.architects",
+        "https://linkedin.com/company/wolfblanc"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle Hermosilla 48",
+        "addressLocality": "Madrid",
+        "postalCode": "28001",
+        "addressCountry": "ES"
+      },
+      "telephone": "+34662411064",
+      "email": "info@wolfblanc.com",
+      "description": "Estudio de arquitectura en Madrid. Proyectos residenciales, comerciales y urbanos con metodología BIM y enfoque nórdico.",
+      "areaServed": "España",
+      "hasCredential": "COAM N.25160",
+      "openingHours": ["Mo-Fr 09:00-18:00"]
+    }
+    </script>
+
+    <style>
+        :root {
+            --bg: #0d0b0a;
+            --text-primary: #f2ede8;
+            --text-secondary: #8a8278;
+            --accent: #c8a882;
+            --glass-bg: rgba(255,248,240,0.04);
+            --glass-border: rgba(200,168,130,0.15);
+            --glass-border-hover: rgba(200,168,130,0.4);
+            --line: rgba(200,168,130,0.15);
+            --nav-bg: rgba(13,11,10,0.92);
+            --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        html.light-mode {
+            --bg: #f5f0eb;
+            --text-primary: #0d0b0a;
+            --text-secondary: #6b6057;
+            --accent: #9a6840;
+            --glass-bg: rgba(13,11,10,0.04);
+            --glass-border: rgba(154,104,64,0.15);
+            --glass-border-hover: rgba(154,104,64,0.4);
+            --line: rgba(154,104,64,0.15);
+            --nav-bg: rgba(245,240,235,0.92);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-font-smoothing: antialiased; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-primary);
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-weight: 300;
+            line-height: 1.8;
+            letter-spacing: 0.04em;
+            overflow-x: hidden;
+            transition: background var(--transition), color var(--transition);
+        }
+
+        @media (hover: hover) { body { cursor: none; } a, button { cursor: none; } }
+
+        h1, h2, h3, h4 { text-transform: uppercase; letter-spacing: 0.18em; font-weight: 300; line-height: 1.2; }
+        a { text-decoration: none; color: inherit; transition: var(--transition); }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+
+        section { padding: 120px 0; border-bottom: 1px solid var(--line); position: relative; }
+        @media (max-width: 768px) { section { padding: 80px 0; } }
+
+        .eyebrow {
+            display: block;
+            font-size: 0.6rem;
+            letter-spacing: 0.35em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed; top: 0; left: 0;
+            width: 100%; height: 64px;
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 0 2rem;
+            z-index: 1000;
+            transition: all 0.4s ease;
+        }
+        nav.scrolled {
+            background: var(--nav-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--line);
+        }
+        .nav-logo { letter-spacing: 0.2em; font-weight: 300; font-size: 0.9rem; color: var(--text-primary); }
+        .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-links a { font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 300; color: var(--text-secondary); }
+        .nav-links a:hover { color: var(--text-primary); }
+        .nav-links a.nav-active { color: var(--accent); }
+        @media (max-width: 768px) { .nav-links a:not(.contact-link) { display: none; } }
+
+        .theme-toggle {
+            width: 32px; height: 32px;
+            display: flex; align-items: center; justify-content: center;
+            background: none; border: none; padding: 0;
+            color: var(--accent); cursor: pointer;
+        }
+        .theme-toggle svg { width: 18px; height: 18px; stroke-width: 1.5; }
+
+        /* Custom Cursor */
+        .cursor-dot {
+            width: 6px; height: 6px; background: var(--accent); border-radius: 50%;
+            position: fixed; pointer-events: none; z-index: 9999;
+            transform: translate(-50%, -50%);
+        }
+        .cursor-ring {
+            width: 28px; height: 28px; border: 1px solid var(--accent); opacity: 0.5;
+            border-radius: 50%; position: fixed; pointer-events: none; z-index: 9998;
+            transform: translate(-50%, -50%);
+            transition: width 0.2s, height 0.2s, opacity 0.2s;
+        }
+        .cursor-hover .cursor-ring { width: 44px; height: 44px; opacity: 1; }
+        @media (hover: none) { .cursor-dot, .cursor-ring { display: none; } }
+
+        /* Hero */
+        #top { min-height: 100vh; display: flex; align-items: center; padding: 0; overflow: hidden; background: var(--bg); }
+        .grain-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; opacity: 0.03; }
+        @keyframes grain { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-1%,-1%); } }
+
+        .watermark {
+            position: absolute; bottom: -2rem; right: -1rem;
+            font-weight: 100; font-size: clamp(12rem, 25vw, 22rem);
+            color: var(--accent); opacity: 0.04;
+            pointer-events: none; user-select: none; line-height: 1; z-index: 0;
+        }
+
+        .hero-content { position: relative; z-index: 2; max-width: 900px; padding: 2rem; }
+
+        .hero-line-text {
+            display: block; white-space: nowrap;
+            font-size: clamp(1.8rem, 5.5vw, 6.5rem);
+            font-weight: 300; line-height: 1.15;
+            letter-spacing: 0.12em; text-transform: uppercase; overflow: hidden;
+        }
+
+        .char { display: inline-block; opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+        .revealed .char { opacity: 1; transform: translateY(0); }
+
+        .hero-line { height: 1px; background: var(--accent); width: 0; margin-top: 1rem; transition: width 1s ease 0.8s; }
+        .revealed .hero-line { width: 60px; }
+
+        .hero-subline { font-size: 0.75rem; letter-spacing: 0.3em; color: var(--text-secondary); margin-top: 2rem; text-transform: uppercase; }
+        .hero-body { font-size: 1rem; max-width: 480px; margin-top: 1.5rem; color: var(--text-secondary); }
+        .cta-group { margin-top: 3rem; display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center; }
+
+        .btn-primary {
+            border: 1px solid var(--accent); color: var(--accent);
+            padding: 1rem 2rem; background: transparent;
+            letter-spacing: 0.15em; font-size: 0.75rem; text-transform: uppercase;
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            transition: var(--transition);
+        }
+        .btn-primary:hover { background: var(--accent); color: var(--bg); }
+        .btn-large { padding: 1.2rem 2.5rem; }
+
+        .link-secondary { color: var(--text-secondary); font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; }
+        .link-secondary:hover { color: var(--text-primary); }
+
+        /* Studio */
+        .studio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+        @media (max-width: 768px) { .studio-grid { grid-template-columns: 1fr; gap: 2rem; } .studio-image-col { order: -1; } }
+
+        .credential-pills { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 2.5rem; }
+        .pill {
+            border: 1px solid var(--accent); opacity: 0.5; border-radius: 2px;
+            padding: 0.4rem 0.8rem; font-size: 0.6rem; letter-spacing: 0.2em;
+            color: var(--accent); text-transform: uppercase;
+        }
+
+        .studio-image-container {
+            aspect-ratio: 1/1; width: 100%; max-width: 480px;
+            position: relative; overflow: hidden; border-radius: 2px;
+            border: 1px solid var(--glass-border);
+        }
+        .studio-image-container::after {
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(200,168,130,0.06); opacity: 0; transition: opacity 0.4s;
+        }
+        .studio-image-container:hover::after { opacity: 1; }
+
+        /* Services */
+        .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+        @media (max-width: 1024px) { .services-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 640px)  { .services-grid { grid-template-columns: 1fr; } }
+
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+            padding: 2rem; border: 1px solid transparent;
+            transition: all 0.4s; position: relative;
+        }
+        .glass-card:hover { border-color: var(--glass-border-hover); box-shadow: 0 0 40px rgba(200,168,130,0.06); z-index: 1; }
+        .card-line { width: 20px; height: 1px; background: var(--accent); margin-bottom: 1.5rem; }
+        .card-title { font-size: 0.75rem; letter-spacing: 0.2em; font-weight: 400; color: var(--text-primary); margin-bottom: 1rem; }
+        .card-body { font-size: 0.875rem; color: var(--text-secondary); line-height: 1.7; }
+
+        /* Credenciales */
+        .credenciales-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+        @media (max-width: 640px) { .credenciales-grid { grid-template-columns: 1fr; } }
+
+        /* Process */
+        .process-steps { display: flex; justify-content: space-between; gap: 2rem; position: relative; margin-top: 4rem; }
+        .process-line { position: absolute; top: 2rem; left: 0; height: 1px; background: var(--accent); width: 0; z-index: 0; transition: width 1.2s ease; }
+        @media (max-width: 768px) { .process-steps { flex-direction: column; gap: 4rem; } .process-line { display: none; } }
+        .step { flex: 1; position: relative; z-index: 1; }
+        .step-number { font-size: 5rem; font-weight: 200; color: var(--text-primary); opacity: 0.06; position: absolute; top: -1rem; left: 0; line-height: 1; pointer-events: none; }
+        .step-title { margin-top: 2.5rem; font-size: 0.75rem; letter-spacing: 0.2em; color: var(--text-primary); margin-bottom: 0.5rem; }
+        .step-body { font-size: 0.85rem; color: var(--text-secondary); }
+
+        /* Testimonials */
+        .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+        @media (max-width: 768px) { .testimonials-grid { grid-template-columns: 1fr; } }
+        .quote-icon { font-size: 4rem; line-height: 1; color: var(--accent); opacity: 0.3; display: block; margin-bottom: 1rem; font-family: serif; }
+        .quote-text { font-style: italic; font-size: 0.95rem; line-height: 1.8; color: var(--text-primary); }
+        .quote-attribution { margin-top: 1.5rem; font-size: 0.65rem; letter-spacing: 0.2em; color: var(--text-secondary); text-transform: uppercase; }
+
+        /* Specialized */
+        .specialized-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+        @media (max-width: 640px) { .specialized-grid { grid-template-columns: 1fr; } }
+        .specialized-card:hover::after {
+            content: "→"; position: absolute; right: 2rem; top: 2rem;
+            color: var(--accent); font-size: 1.2rem; animation: fadeIn 0.3s forwards;
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+
+        /* Portfolio CTA */
+        #portfolio { text-align: center; padding: 180px 0; }
+        .portfolio-watermark {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+            font-size: 15vw; font-weight: 100; color: var(--accent); opacity: 0.02;
+            pointer-events: none; user-select: none; z-index: 0;
+        }
+        .portfolio-content { position: relative; z-index: 1; }
+        .portfolio-headline { font-size: clamp(1.2rem, 3vw, 2rem); font-weight: 300; margin-bottom: 1rem; }
+        .portfolio-subline { color: var(--text-secondary); margin-bottom: 2.5rem; }
+
+        /* Contact */
+        .contact-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-bottom: 3rem; }
+        @media (max-width: 768px) { .contact-info-grid { grid-template-columns: 1fr; gap: 2rem; } }
+        .contact-col h3 { font-size: 0.9rem; margin-bottom: 1.5rem; color: var(--text-primary); }
+        .contact-col p, .contact-col a { display: block; font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
+        .contact-col a:hover { color: var(--text-primary); }
+
+        .map-wrapper {
+            width: 100%; height: 320px; border-radius: 2px; overflow: hidden;
+            border: 1px solid var(--glass-border); margin-top: 3rem;
+            filter: grayscale(100%) invert(1) contrast(0.85) brightness(0.9);
+            transition: filter 0.4s ease;
+        }
+        html.light-mode .map-wrapper { filter: grayscale(100%) contrast(0.9) brightness(1.05); }
+        @media (max-width: 768px) { .map-wrapper { height: 240px; } }
+
+        .contact-cta { border-top: 1px solid var(--line); padding-top: 3rem; margin-top: 3rem; }
+        .contact-cta h3 { font-size: 1.5rem; margin-bottom: 2rem; }
+        .contact-buttons { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+        .btn-whatsapp { background: rgba(200,168,130,0.15); }
+        .btn-whatsapp:hover { background: var(--accent); color: var(--bg); }
+        .btn-whatsapp svg { width: 14px; height: 14px; stroke: currentColor; fill: none; }
+        .contact-footer-text { font-size: 0.75rem; color: var(--text-secondary); }
+
+        /* Footer */
+        footer {
+            padding: 2rem; border-top: 1px solid var(--line);
+            display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
+            font-size: 0.7rem; letter-spacing: 0.15em; color: var(--text-secondary); text-transform: uppercase;
+        }
+        footer a:hover { color: var(--text-primary); }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed; bottom: 32px; right: 32px;
+            width: 44px; height: 44px; border-radius: 2px;
+            border: 1px solid var(--accent); background: transparent;
+            opacity: 0; visibility: hidden; transition: all 0.3s; z-index: 900;
+            display: flex; align-items: center; justify-content: center;
+            color: var(--accent);
+        }
+        .back-to-top.visible { opacity: 0.4; visibility: visible; }
+        .back-to-top:hover { opacity: 1; background: rgba(200,168,130,0.08); }
+        @media (max-width: 768px) { .back-to-top { bottom: 20px; right: 20px; } }
+
+        /* Reveal */
+        [data-reveal] { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+        [data-reveal].revealed { opacity: 1; transform: translateY(0); }
+
+        /* Hidden SVG utility */
+        .noise-filter { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+    </style>
+</head>
+<body>
+
+    <svg class="noise-filter" aria-hidden="true">
+        <filter id="noise">
+            <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+            <feColorMatrix type="saturate" values="0"/>
+        </filter>
+    </svg>
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <nav id="main-nav">
+        <a href="#top" class="nav-logo">WOLFBLANC</a>
+        <div class="nav-links">
+            <a href="#estudio">ESTUDIO</a>
+            <a href="#servicios">SERVICIOS</a>
+            <a href="#proceso">PROCESO</a>
+            <a href="#contacto" class="contact-link">CONTACTO</a>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                <svg id="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="display:none;">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg id="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Hero -->
+        <section id="top">
+            <div class="grain-overlay" style="filter:url(#noise);animation:grain 4s steps(2) infinite;"></div>
+            <div class="watermark" aria-hidden="true">MADRID</div>
+            <div class="container">
+                <div class="hero-content" id="hero-content">
+                    <span class="eyebrow">ESTUDIO DE ARQUITECTURA · MADRID</span>
+                    <h1>
+                        <span class="hero-line-text">ARQUITECTURA</span>
+                        <span class="hero-line-text">ESTRATÉGICA</span>
+                        <span class="hero-line-text">EN MADRID</span>
+                    </h1>
+                    <div class="hero-line"></div>
+                    <p class="hero-subline">COAM N.25160 · WELL AP · Metodología nórdica</p>
+                    <p class="hero-body">Combinamos precisión escandinava con sensibilidad mediterránea para crear arquitectura que perdura.</p>
+                    <div class="cta-group">
+                        <a href="#contacto" class="btn-primary">CONSULTA GRATUITA</a>
+                        <a href="https://wolfblanc.com/es/" target="_blank" rel="noopener" class="link-secondary">Ver portfolio completo →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estudio -->
+        <section id="estudio" data-reveal>
+            <div class="container">
+                <span class="eyebrow">ESTUDIO</span>
+                <div class="studio-grid">
+                    <div class="studio-text-col">
+                        <h2>Estudio de Arquitectura en Madrid</h2>
+                        <p style="margin-top:2rem;">Wolfblanc es un estudio de arquitectura con sede en Madrid, especializado en proyectos residenciales, comerciales y urbanos. Combinamos metodología escandinava con adaptabilidad mediterránea — rigor nórdico aplicado al contexto español. Con más de 20 años de experiencia acumulada, hemos colaborado con grandes promotores nórdicos y clientes privados exigentes en toda Europa.</p>
+                        <div class="credential-pills">
+                            <span class="pill">COAM N.25160</span>
+                            <span class="pill">WELL AP</span>
+                            <span class="pill">SAR/MSA</span>
+                            <span class="pill">TEE-TCG</span>
+                            <span class="pill">BIM</span>
+                            <span class="pill">ETSAM</span>
+                            <span class="pill">NTUA</span>
+                        </div>
+                    </div>
+                    <div class="studio-image-col">
+                        <div class="studio-image-container">
+                            <img
+                                src="https://wolfblanc.com/wp-content/uploads/2026/01/wolfblancstudio_lwsoptimized.webp"
+                                alt="Dolores Herrero — Founder, Wolfblanc Architects"
+                                loading="lazy"
+                                style="width:100%;height:100%;object-fit:cover;object-position:center top;display:block;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios -->
+        <section id="servicios" data-reveal>
+            <div class="container">
+                <span class="eyebrow">SERVICIOS</span>
+                <h2 style="margin-bottom:4rem;">Servicios de Arquitectura e Interiorismo</h2>
+                <div class="services-grid">
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">ARQUITECTURA &amp; PAISAJE</h3>
+                        <p class="card-body">Edificios y entornos diseñados como un sistema integrado. Claridad espacial, respuesta climática, construibilidad.</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">INTERIORISMO RESIDENCIAL</h3>
+                        <p class="card-body">Espacios domésticos que funcionan y se sienten correctos. Luz, material, atmósfera. Confort medible.</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">ESTRATEGIA COMERCIAL &amp; INTERIORISMO</h3>
+                        <p class="card-body">Entornos de alto rendimiento para marcas e inversores. Hostelería, retail y oficinas — ejecutados a través de nuestra división especializada EOLOS DESIGN LAB.</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">DIRECCIÓN DE PROYECTOS</h3>
+                        <p class="card-body">Coordinación BIM, comunicación clara, control de costes. Del concepto a la entrega.</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">CONSULTORÍA WELL AP</h3>
+                        <p class="card-body">Diseño para el rendimiento humano. Aire, luz, acústica, confort — certificación WELL Building Standard.</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">CONSULTORÍA BIM</h3>
+                        <p class="card-body">Precisión digital en cada fase. Coordinación de disciplinas, reducción de riesgos, decisiones más inteligentes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Credenciales -->
+        <section id="credenciales" data-reveal>
+            <div class="container">
+                <span class="eyebrow">CREDENCIALES</span>
+                <h2 style="margin-bottom:4rem;">Por Qué Elegir Wolfblanc</h2>
+                <div class="credenciales-grid">
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">COLEGIADO COAM (N.25160)</h3>
+                        <p class="card-body">Habilitado para proyectar y dirigir obras en todo el territorio español.</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">CERTIFICACIÓN WELL AP</h3>
+                        <p class="card-body">Expertos en diseño para el bienestar humano según el estándar WELL Building.</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">METODOLOGÍA BIM</h3>
+                        <p class="card-body">Flujos de trabajo coordinados, precisos y transparentes en todas las fases.</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <div class="card-line"></div>
+                        <h3 class="card-title">COMUNICACIÓN MULTILINGÜE</h3>
+                        <p class="card-body">Atendemos en español, inglés, sueco y griego. Sin barreras.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proceso -->
+        <section id="proceso" data-reveal>
+            <div class="container">
+                <span class="eyebrow">PROCESO</span>
+                <h2>Nuestro Proceso</h2>
+                <div class="process-steps" id="process-steps">
+                    <div class="process-line" id="process-line"></div>
+                    <div class="step" data-reveal-stagger>
+                        <span class="step-number" aria-hidden="true">01</span>
+                        <h3 class="step-title">ESCUCHAR</h3>
+                        <p class="step-body">Entendemos tu proyecto, necesidades, presupuesto y posibilidades.</p>
+                    </div>
+                    <div class="step" data-reveal-stagger>
+                        <span class="step-number" aria-hidden="true">02</span>
+                        <h3 class="step-title">DISEÑAR</h3>
+                        <p class="step-body">Desarrollamos y visualizamos el concepto arquitectónico.</p>
+                    </div>
+                    <div class="step" data-reveal-stagger>
+                        <span class="step-number" aria-hidden="true">03</span>
+                        <h3 class="step-title">PLANIFICAR</h3>
+                        <p class="step-body">Preparamos planos, detalles y todas las decisiones constructivas.</p>
+                    </div>
+                    <div class="step" data-reveal-stagger>
+                        <span class="step-number" aria-hidden="true">04</span>
+                        <h3 class="step-title">EJECUTAR</h3>
+                        <p class="step-body">Acompañamos el proyecto hasta su finalización.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section id="testimonios" data-reveal>
+            <div class="container">
+                <span class="eyebrow">CLIENTES</span>
+                <h2 style="display:none;">Clientes de Wolfblanc</h2>
+                <div class="testimonials-grid">
+                    <div class="glass-card" data-reveal-stagger>
+                        <span class="quote-icon" aria-hidden="true">"</span>
+                        <p class="quote-text">Wolfblanc reorganizó nuestro apartamento en Madrid con luz, claridad y una atmósfera serena que se siente funcional y hermosa.</p>
+                        <p class="quote-attribution">— LAURA MARTÍNEZ · MADRID · PROPIETARIA</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <span class="quote-icon" aria-hidden="true">"</span>
+                        <p class="quote-text">Rediseñaron nuestras unidades de alquiler con layouts inteligentes que aumentaron el valor y ayudaron a alquilarlas al instante.</p>
+                        <p class="quote-attribution">— MIGUEL FERNÁNDEZ · MADRID · INVERSOR</p>
+                    </div>
+                    <div class="glass-card" data-reveal-stagger>
+                        <span class="quote-icon" aria-hidden="true">"</span>
+                        <p class="quote-text">Entendieron exactamente el ambiente que buscábamos y crearon un espacio que funciona a la perfección para clientes y equipo.</p>
+                        <p class="quote-attribution">— ISABEL NAVARRO · VALENCIA · HOSTELERÍA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Especializados -->
+        <section id="especializados" data-reveal>
+            <div class="container">
+                <span class="eyebrow">NUESTRA OFERTA</span>
+                <h2 style="margin-bottom:4rem;">Servicios Especializados</h2>
+                <div class="specialized-grid">
+                    <a href="https://wolfblanc.com/es/portfolio/for-investors/" target="_blank" rel="noopener" class="glass-card specialized-card" data-reveal-stagger>
+                        <h3 class="card-title">PARA INVERSORES</h3>
+                        <p class="card-body">Arquitectura estratégica para crear valor. ROI medible y procesos transparentes.</p>
+                    </a>
+                    <a href="https://wolfblanc.com/es/portfolio/commercial-retail/" target="_blank" rel="noopener" class="glass-card specialized-card" data-reveal-stagger>
+                        <h3 class="card-title">COMERCIAL Y HOSTELERÍA</h3>
+                        <p class="card-body">Espacios de alto rendimiento para marcas y negocios en España.</p>
+                    </a>
+                    <a href="https://wolfblanc.com/es/portfolio/for-homeowners/" target="_blank" rel="noopener" class="glass-card specialized-card" data-reveal-stagger>
+                        <h3 class="card-title">PROPIETARIOS DE VIVIENDA</h3>
+                        <p class="card-body">Reforma y diseño residencial a medida. Tu hogar, redefinido.</p>
+                    </a>
+                    <a href="https://wolfblanc.com/es/portfolio/second-homes-spain/" target="_blank" rel="noopener" class="glass-card specialized-card" data-reveal-stagger>
+                        <h3 class="card-title">SEGUNDAS RESIDENCIAS EN ESPAÑA</h3>
+                        <p class="card-body">Tu segunda casa en España, gestionada con precisión nórdica y sin sorpresas.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio CTA -->
+        <section id="portfolio" data-reveal>
+            <div class="portfolio-watermark" aria-hidden="true">PROYECTOS</div>
+            <div class="container">
+                <div class="portfolio-content">
+                    <h2 class="portfolio-headline">Veinte proyectos. Tres países. Una metodología.</h2>
+                    <p class="portfolio-subline">Descubre la obra completa de Wolfblanc en nuestro portfolio.</p>
+                    <a href="https://wolfblanc.com/es/" target="_blank" rel="noopener" class="btn-primary btn-large">VER PORTFOLIO COMPLETO →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" data-reveal>
+            <div class="container">
+                <span class="eyebrow">CONTACTO</span>
+                <h2 style="margin-bottom:4rem;">Contacto</h2>
+
+                <div class="contact-info-grid">
+                    <div class="contact-col">
+                        <h3>WOLFBLANC ARCHITECTS</h3>
+                        <p>Calle Hermosilla 48</p>
+                        <p>28001 Madrid, España</p>
+                        <p>Tel: <a href="tel:+34662411064">+34 662 411 064</a></p>
+                    </div>
+                    <div class="contact-col">
+                        <a href="mailto:info@wolfblanc.com">info@wolfblanc.com</a>
+                        <a href="mailto:dolores@wolfblanc.com">dolores@wolfblanc.com</a>
+                        <a href="https://instagram.com/wolfblanc.architects" target="_blank" rel="noopener">Instagram</a>
+                        <a href="https://linkedin.com/company/wolfblanc" target="_blank" rel="noopener">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="map-wrapper">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.2!2d-3.6832!3d40.4234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289e3b6e89a1%3A0x1!2sCalle+Hermosilla+48%2C+28001+Madrid!5e0!3m2!1sen!2ses!4v1"
+                        width="100%" height="100%" style="border:0;"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Wolfblanc Architects — Calle Hermosilla 48, Madrid">
+                    </iframe>
+                </div>
+
+                <div class="contact-cta">
+                    <h3>Inicia tu proyecto</h3>
+                    <div class="contact-buttons">
+                        <a href="mailto:dolores@wolfblanc.com" class="btn-primary">ESCRÍBENOS</a>
+                        <a href="https://wa.me/34662411064" target="_blank" rel="noopener" class="btn-primary btn-whatsapp">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-11.7 8.38 8.38 0 0 1 3.8.9L21 3z"></path>
+                            </svg>
+                            WHATSAPP
+                        </a>
+                    </div>
+                    <p class="contact-footer-text">Respondemos en español, inglés, sueco y griego.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container" style="display:flex;justify-content:space-between;width:100%;flex-wrap:wrap;">
+            <span>WOLFBLANC® ARCHITECTS S.L. · Madrid · España · © 2026</span>
+            <a href="https://wolfblanc.com" target="_blank" rel="noopener">wolfblanc.com</a>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script>
+        /* ── Theme ── */
+        const html        = document.documentElement;
+        const themeToggle = document.getElementById('theme-toggle');
+        const sunIcon     = document.getElementById('sun-icon');
+        const moonIcon    = document.getElementById('moon-icon');
+
+        function setTheme(theme) {
+            if (theme === 'light') {
+                html.classList.add('light-mode');
+                sunIcon.style.display  = 'none';
+                moonIcon.style.display = 'block';
+            } else {
+                html.classList.remove('light-mode');
+                sunIcon.style.display  = 'block';
+                moonIcon.style.display = 'none';
+            }
+            localStorage.setItem('wb-theme', theme);
+        }
+
+        // Default: light mode
+        setTheme(localStorage.getItem('wb-theme') || 'light');
+
+        themeToggle.addEventListener('click', () => {
+            setTheme(html.classList.contains('light-mode') ? 'dark' : 'light');
+        });
+
+        /* ── Custom Cursor ── */
+        const dot  = document.getElementById('cursor-dot');
+        const ring = document.getElementById('cursor-ring');
+        let mouseX = 0, mouseY = 0, ringX = 0, ringY = 0;
+
+        window.addEventListener('mousemove', e => {
+            mouseX = e.clientX; mouseY = e.clientY;
+            dot.style.left = mouseX + 'px';
+            dot.style.top  = mouseY + 'px';
+        });
+
+        (function animateRing() {
+            ringX += (mouseX - ringX) * 0.15;
+            ringY += (mouseY - ringY) * 0.15;
+            ring.style.left = ringX + 'px';
+            ring.style.top  = ringY + 'px';
+            requestAnimationFrame(animateRing);
+        })();
+
+        document.querySelectorAll('a, button').forEach(el => {
+            el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
+            el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
+        });
+
+        window.addEventListener('mousedown', () => {
+            dot.style.transform = 'translate(-50%,-50%) scale(2)';
+            setTimeout(() => { dot.style.transform = 'translate(-50%,-50%) scale(1)'; }, 150);
+        });
+
+        /* ── Hero Text Reveal ── */
+        document.querySelectorAll('.hero-line-text').forEach(line => {
+            const text = line.textContent;
+            line.innerHTML = '';
+            text.split('').forEach((char, i) => {
+                const span = document.createElement('span');
+                span.textContent = char === ' ' ? '\u00A0' : char;
+                span.className = 'char';
+                span.style.transitionDelay = (i * 0.03) + 's';
+                line.appendChild(span);
+            });
+        });
+
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('hero-content').classList.add('revealed');
+            }, 100);
+        });
+
+        /* ── Scroll Reveal ── */
+        const processLine = document.getElementById('process-line');
+
+        const revealObserver = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) return;
+                entry.target.classList.add('revealed');
+
+                entry.target.querySelectorAll('[data-reveal-stagger]').forEach((el, i) => {
+                    el.style.transitionDelay = (i * 0.1) + 's';
+                    el.classList.add('revealed');
+                });
+
+                if (entry.target.id === 'proceso') {
+                    processLine.style.width = '100%';
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('[data-reveal]').forEach(el => revealObserver.observe(el));
+
+        /* ── Nav scroll + active link ── */
+        const nav      = document.getElementById('main-nav');
+        const btt      = document.getElementById('back-to-top');
+        const navLinks = document.querySelectorAll('.nav-links a');
+        const sections = document.querySelectorAll('section');
+
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 20);
+            btt.classList.toggle('visible', window.scrollY > 400);
+
+            let current = '';
+            sections.forEach(section => {
+                if (pageYOffset >= section.offsetTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('nav-active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('nav-active');
+                }
+            });
+        });
+
+        /* ── Back to top ── */
+        btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    </script>
+
+</body>
+</html>
