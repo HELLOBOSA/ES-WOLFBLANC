@@ -14,9 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
 
-    <title>Arquitecto Madrid | Wolfblanc Architects</title>
-    <meta name="description" content="Estudio de arquitectura en Madrid. Reformas integrales, viviendas unifamiliares y proyectos de inversión con metodología BIM. COAM colegiado N.25160 · WELL AP. Consulta gratuita.">
-    <meta name="keywords" content="arquitecto Madrid, estudio arquitectura Madrid, arquitecto colegiado Madrid, arquitecto España, diseño interior Madrid, reforma integral Madrid, arquitecto residencial Madrid, arquitecto comercial Madrid, interiorismo Madrid, WELL AP arquitecto Madrid">
+    <title>Arquitecto Madrid y Marbella - WOLFBLANC ARCHITECTS</title>
+    <meta name="description" content="Estudio de arquitectura en Madrid y Marbella. Reformas integrales, viviendas unifamiliares y proyectos de inversión con metodología BIM. COAM colegiado N.25160 · WELL AP. Consulta gratuita.">
+    <meta name="keywords" content="arquitecto Madrid, estudio arquitectura Madrid, arquitecto colegiado Madrid, arquitecto España, diseño interior Madrid, reforma integral Madrid, arquitecto residencial Madrid, arquitecto comercial Madrid, interiorismo Madrid, WELL AP arquitecto Madrid, arquitecto Marbella, estudio arquitectura Marbella, arquitecto Costa del Sol, reforma integral Marbella, interiorismo Marbella, segunda residencia Marbella">
 
     <link rel="canonical" href="https://wolfblanc.es">
     <link rel="alternate" hreflang="es" href="https://wolfblanc.es">
@@ -25,16 +25,16 @@
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_ES">
-    <meta property="og:title" content="Arquitecto Madrid | Wolfblanc Architects">
-    <meta property="og:description" content="Estudio de arquitectura en Madrid. COAM colegiado N.25160 · WELL AP · Metodología BIM. Consulta gratuita.">
+    <meta property="og:title" content="Arquitecto Madrid y Marbella - WOLFBLANC ARCHITECTS">
+    <meta property="og:description" content="Estudio de arquitectura en Madrid y Marbella. COAM colegiado N.25160 · WELL AP · Metodología BIM. Consulta gratuita.">
     <meta property="og:url" content="https://wolfblanc.es">
     <meta property="og:site_name" content="Wolfblanc Architects">
     <meta property="og:image" content="https://wolfblanc.com/wp-content/uploads/2026/01/WOLFBLANC-ARCHITECTS-LOGO_lwsoptimized.webp">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Arquitecto Madrid | Wolfblanc Architects">
-    <meta name="twitter:description" content="Estudio de arquitectura en Madrid. COAM colegiado · WELL AP.">
+    <meta name="twitter:title" content="Arquitecto Madrid y Marbella - WOLFBLANC ARCHITECTS">
+    <meta name="twitter:description" content="Estudio de arquitectura en Madrid y Marbella. COAM colegiado · WELL AP.">
     <meta name="twitter:image" content="https://wolfblanc.com/wp-content/uploads/2026/01/WOLFBLANC-ARCHITECTS-LOGO_lwsoptimized.webp">
 
     <!-- Schema.org -->
@@ -51,17 +51,27 @@
         "https://instagram.com/wolfblanc.architects",
         "https://linkedin.com/company/wolfblanc"
       ],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Calle Hermosilla 48",
-        "addressLocality": "Madrid",
-        "postalCode": "28001",
-        "addressCountry": "ES"
-      },
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Calle Hermosilla 48",
+          "addressLocality": "Madrid",
+          "postalCode": "28001",
+          "addressCountry": "ES"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Oasis Business Centre, Carretera de Cádiz km 176, Oficina 9",
+          "addressLocality": "Marbella",
+          "postalCode": "29602",
+          "addressRegion": "Málaga",
+          "addressCountry": "ES"
+        }
+      ],
       "telephone": "+34662411064",
       "email": "info@wolfblanc.com",
-      "description": "Estudio de arquitectura en Madrid. Proyectos residenciales, comerciales y urbanos con metodología BIM y enfoque nórdico.",
-      "areaServed": "España",
+      "description": "Estudio de arquitectura en Madrid y Marbella. Proyectos residenciales, comerciales y urbanos con metodología BIM y enfoque nórdico.",
+      "areaServed": ["España", "Madrid", "Marbella", "Costa del Sol"],
       "hasCredential": "COAM N.25160",
       "openingHours": ["Mo-Fr 09:00-18:00"]
     }
@@ -294,15 +304,22 @@
         .portfolio-subline { color: var(--text-secondary); margin-bottom: 2.5rem; }
 
         /* Contact */
-        .contact-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-bottom: 3rem; }
+        .contact-info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 3rem;
+        }
         @media (max-width: 768px) { .contact-info-grid { grid-template-columns: 1fr; gap: 2rem; } }
-        .contact-col h3 { font-size: 0.9rem; margin-bottom: 1.5rem; color: var(--text-primary); }
-        .contact-col p, .contact-col a { display: block; font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
+
+        .contact-col h3 { font-size: 0.75rem; letter-spacing: 0.2em; margin-bottom: 0.4rem; color: var(--accent); }
+        .contact-col .office-label { font-size: 0.6rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 1rem; display: block; }
+        .contact-col p, .contact-col a { display: block; font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.4rem; }
         .contact-col a:hover { color: var(--text-primary); }
 
         .map-wrapper {
-            width: 100%; height: 320px; border-radius: 2px; overflow: hidden;
-            border: 1px solid var(--glass-border); margin-top: 3rem;
+            width: 100%; height: 340px; border-radius: 2px; overflow: hidden;
+            border: 1px solid var(--glass-border); margin-top: 0;
             filter: grayscale(100%) invert(1) contrast(0.85) brightness(0.9);
             transition: filter 0.4s ease;
         }
@@ -392,14 +409,14 @@
             <div class="watermark" aria-hidden="true">MADRID</div>
             <div class="container">
                 <div class="hero-content" id="hero-content">
-                    <span class="eyebrow">ESTUDIO DE ARQUITECTURA · MADRID</span>
+                    <span class="eyebrow">ESTUDIO DE ARQUITECTURA · MADRID · MARBELLA</span>
                     <h1>
                         <span class="hero-line-text">ARQUITECTURA</span>
                         <span class="hero-line-text">ESTRATÉGICA</span>
                         <span class="hero-line-text">EN MADRID</span>
                     </h1>
                     <div class="hero-line"></div>
-                    <p class="hero-subline">COAM N.25160 · WELL AP · Metodología nórdica</p>
+                    <p class="hero-subline">COAM N.25160 · WELL AP · Madrid · Marbella</p>
                     <p class="hero-body">Combinamos precisión escandinava con sensibilidad mediterránea para crear arquitectura que perdura.</p>
                     <div class="cta-group">
                         <a href="#contacto" class="btn-primary">CONSULTA GRATUITA</a>
@@ -415,8 +432,8 @@
                 <span class="eyebrow">ESTUDIO</span>
                 <div class="studio-grid">
                     <div class="studio-text-col">
-                        <h2>Estudio de Arquitectura en Madrid</h2>
-                        <p style="margin-top:2rem;">Wolfblanc es un estudio de arquitectura con sede en Madrid, especializado en proyectos residenciales, comerciales y urbanos. Combinamos metodología escandinava con adaptabilidad mediterránea — rigor nórdico aplicado al contexto español. Con más de 20 años de experiencia acumulada, hemos colaborado con grandes promotores nórdicos y clientes privados exigentes en toda Europa.</p>
+                        <h2>Estudio de Arquitectura en Madrid y Marbella</h2>
+                        <p style="margin-top:2rem;">Wolfblanc es un estudio de arquitectura con sede en Madrid y presencia en Marbella, especializado en proyectos residenciales, comerciales y urbanos. Combinamos metodología escandinava con adaptabilidad mediterránea — rigor nórdico aplicado al contexto español. Con más de 20 años de experiencia acumulada, hemos colaborado con grandes promotores nórdicos y clientes privados exigentes en toda Europa.</p>
                         <div class="credential-pills">
                             <span class="pill">COAM N.25160</span>
                             <span class="pill">WELL AP</span>
@@ -612,26 +629,33 @@
 
                 <div class="contact-info-grid">
                     <div class="contact-col">
-                        <h3>WOLFBLANC ARCHITECTS</h3>
+                        <h3>MADRID</h3>
+                        <span class="office-label">Sede principal</span>
                         <p>Calle Hermosilla 48</p>
                         <p>28001 Madrid, España</p>
-                        <p>Tel: <a href="tel:+34662411064">+34 662 411 064</a></p>
+                        <a href="tel:+34662411064">+34 662 411 064</a>
+                        <a href="mailto:info@wolfblanc.com" style="margin-top:0.8rem;">info@wolfblanc.com</a>
+                        <a href="mailto:dolores@wolfblanc.com">dolores@wolfblanc.com</a>
+                        <a href="https://instagram.com/wolfblanc.architects" target="_blank" rel="noopener" style="margin-top:0.8rem;">Instagram</a>
+                        <a href="https://linkedin.com/company/wolfblanc" target="_blank" rel="noopener">LinkedIn</a>
                     </div>
                     <div class="contact-col">
-                        <a href="mailto:info@wolfblanc.com">info@wolfblanc.com</a>
-                        <a href="mailto:dolores@wolfblanc.com">dolores@wolfblanc.com</a>
-                        <a href="https://instagram.com/wolfblanc.architects" target="_blank" rel="noopener">Instagram</a>
-                        <a href="https://linkedin.com/company/wolfblanc" target="_blank" rel="noopener">LinkedIn</a>
+                        <h3>MARBELLA</h3>
+                        <span class="office-label">Costa del Sol</span>
+                        <p>Oasis Business Centre</p>
+                        <p>Carretera de Cádiz km 176, Oficina 9</p>
+                        <p>29602 Marbella, Málaga</p>
+                        <a href="tel:+34662411064">+34 662 411 064</a>
                     </div>
                 </div>
 
                 <div class="map-wrapper">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.2!2d-3.6832!3d40.4234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289e3b6e89a1%3A0x1!2sCalle+Hermosilla+48%2C+28001+Madrid!5e0!3m2!1sen!2ses!4v1"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1882227!2d-4.8!3d37.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289e3b6e89a1%3A0x1!2sCalle+Hermosilla+48%2C+28001+Madrid!5e0!3m2!1ses!2ses!4v1&markers=color:orange%7Clabel:M%7C40.4234,-3.6832&markers=color:orange%7Clabel:B%7C36.5297,-4.9881"
                         width="100%" height="100%" style="border:0;"
                         allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"
-                        title="Wolfblanc Architects — Calle Hermosilla 48, Madrid">
+                        title="Wolfblanc Architects — Madrid y Marbella">
                     </iframe>
                 </div>
 
